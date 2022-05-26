@@ -17,14 +17,14 @@ maze_cells = np.zeros((201, 201, 2), dtype=int)
 
 # load maze
 def load_maze():
-    if not os.path.exists("COMP6247Maze20212022.npy"):
-    #if not os.path.exists("small_maze.npy"):
+    if not os.path.exists("maze_data/COMP6247Maze20212022.npy"):
+    #if not os.path.exists("maze_data/small_maze.npy"):
         raise ValueError("Cannot find %s" % file_path)
 
     else:
         global maze_cells
-        maze = np.load("COMP6247Maze20212022.npy", allow_pickle=False, fix_imports=True)
-        #maze = np.load("small_maze.npy", allow_pickle=False, fix_imports=True)
+        maze = np.load("maze_data/COMP6247Maze20212022.npy", allow_pickle=False, fix_imports=True)
+        #maze = np.load("maze_data/small_maze.npy", allow_pickle=False, fix_imports=True)
         maze_cells = np.zeros((maze.shape[0], maze.shape[1], 2), dtype=int)
         for i in range(maze.shape[0]):
             for j in range(maze.shape[1]):
