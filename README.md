@@ -8,8 +8,8 @@ contains the developed code used for determining the shortest path the maze exit
 The following plot demonstrates the convergence of the total reward received by the agent after approximately
 50 epochs of training.
 
-https://github.com/pacfan/COMP6247_Dynamic_Maze_Solivng_Project/blob/main/total_rewards_plot.png
+![image]https://github.com/pacfan/COMP6247_Dynamic_Maze_Solivng_Project/blob/main/total_rewards_plot.png
 
 ## Dynamic maze animation
 
-https://github.com/pacfan/COMP6247_Dynamic_Maze_Solivng_Project/blob/main/maze_animation.mp4
+![]https://github.com/pacfan/COMP6247_Dynamic_Maze_Solivng_Project/blob/main/maze_animation.mp4
