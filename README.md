@@ -12,4 +12,4 @@ The following plot demonstrates the convergence of the total reward received by 
 
 ## Dynamic maze animation
 
-![](https://github.com/pacfan/COMP6247_Dynamic_Maze_Solivng_Project/blob/main/maze_animation.mp4)
+![](maze_animation.mp4)
