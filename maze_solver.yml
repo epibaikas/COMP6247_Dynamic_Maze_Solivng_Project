@@ -1,0 +1,55 @@
+name: maze_solver
+channels:
+  - conda-forge
+dependencies:
+  - aom=3.3.0=h07bb92c_1
+  - bzip2=1.0.8=h3422bc3_4
+  - ca-certificates=2022.5.18.1=h4653dfc_0
+  - freetype=2.10.4=h17b34a0_1
+  - gettext=0.19.8.1=h049c9fb_1008
+  - gmp=6.2.1=h9f76cd9_0
+  - gnutls=3.6.13=h706517b_1
+  - icu=70.1=h6b3803e_0
+  - lame=3.100=h27ca646_1001
+  - libcxx=14.0.3=h6a5c8ee_0
+  - libffi=3.4.2=h3422bc3_5
+  - libiconv=1.16=h642e427_0
+  - libpng=1.6.37=hf7e6567_2
+  - libvpx=1.11.0=hc470f4d_3
+  - libxml2=2.9.14=h035c1df_0
+  - libzlib=1.2.11=h90dfc92_1014
+  - ncurses=6.3=h07bb92c_1
+  - nettle=3.6=hc6a1b29_0
+  - openh264=2.1.1=habe5f53_0
+  - openssl=3.0.3=ha287fd2_0
+  - pip=22.1=pyhd8ed1ab_0
+  - python=3.10.4=h14b404e_0_cpython
+  - python_abi=3.10=2_cp310
+  - readline=8.1=hedafd6a_0
+  - setuptools=62.2.0=py310hbe9552e_0
+  - sqlite=3.38.5=h40dfcc0_0
+  - svt-av1=1.1.0=hbe31e94_1
+  - tk=8.6.12=he1e0b03_0
+  - tzdata=2022a=h191b570_0
+  - wheel=0.37.1=pyhd8ed1ab_0
+  - x264=1!161.3030=h3422bc3_1
+  - x265=3.5=hbc6ce65_3
+  - xz=5.2.5=h642e427_1
+  - zlib=1.2.11=h90dfc92_1014
+  - pip:
+    - celluloid==0.2.0
+    - colorama==0.4.4
+    - cycler==0.11.0
+    - ffmpeg==1.4
+    - fonttools==4.33.3
+    - kiwisolver==1.4.2
+    - matplotlib==3.5.2
+    - numpy==1.22.3
+    - packaging==21.3
+    - pillow==9.1.0
+    - pyparsing==3.0.9
+    - python-dateutil==2.8.2
+    - six==1.16.0
+    - torch==1.11.0
+    - typing-extensions==4.2.0
+prefix: /opt/homebrew/Caskroom/miniforge/base/envs/maze_solver
